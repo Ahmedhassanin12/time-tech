@@ -1,0 +1,47 @@
+.done-work {
+  background-image: url('../../public/bg-industry.png');
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .three-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .card-done {
+      width: 300px;
+      padding: 40px 20px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      p {
+        color: #000000;
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+
+      .icon-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 140px;
+        font-size: 2rem;
+        border-radius: 45%;
+        border: 10px solid #77ebff;
+        background: #02afce;
+        position: absolute;
+        top: -26px;
+        right: -26px;
+        color: #fff;
+      }
+    }
+  }
+}

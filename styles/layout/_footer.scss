@@ -1,0 +1,44 @@
+footer{
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  & > div{
+    width: 25%;
+    margin: 20px 0;
+  }
+  .brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_list{
+    h3{
+      color: $cyan;
+    }
+    .list{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  footer{
+    & > div{
+      width: 33.3333%;
+    }
+    .brand{
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  footer{
+    & > div{
+      width: 50%;
+    }
+   
+  }
+}
